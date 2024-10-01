@@ -1,2 +1,22 @@
+* {
+    box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.box {
+    margin: 20px;
+    border: 15px solid blue;
+    padding: 50px;
+    color: lightblue;
+    background-color: white;
+    width: 300px; /* Adjust the width as needed */
+    text-align: center;
+}
